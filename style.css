@@ -1,0 +1,60 @@
+h1{
+	color: #32a2e4;
+	text-align: center ;
+	font-size: 250%;
+    border: #0f46df 1px dotted;
+    border-bottom: #0f46df 10px solid;
+}
+
+ul{
+	color: #32a2e4;
+    font-size: 15px;
+	border: #5d8aeb 1px dotted;
+	border-left: #5677bd 10px solid;
+	padding: 5px 20px;
+	margin-bottom: 0;
+}
+
+  p {
+    color: #32a2e4; /* 較深的灰色文字 */
+    font-size: 20px; /* 字體大小 */
+    text-align: center ;
+    line-height: 1; /* 1.6倍的行高，讓閱讀更舒適 */
+    width: 80%; /* 寬度為外層容器的 80% */
+    margin: 25px auto; /* 上下外邊距 20px，左右自動 (實現置中效果) */
+    padding: 15px; /* 內邊距 15px */
+    border: 5px dashed #5677bd; /* 1px 灰色虛線邊框 */
+    border-radius: 20px; /* 8px 的圓角 */
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1); /* 加上淡淡的區塊陰影 */
+  }
+
+#wrap{
+	width: 800px;
+	margin: 40px auto;
+	padding: 40px 80px;
+	border: #5d8aeb 1px solid;
+	background-color: #fff;
+}
+
+#wwrap{
+	a:link,a:visited{
+	color:#FFFFFF;
+	background-color:#98bf21;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+	border-radius: 25px ;
+    }
+    a:hover,a:active{
+	background-color:#7A991A;
+	border-radius: 25px ;
+    }
+}
+
+body{
+	background-color: #5677bd;
+	background-image: url(https://i.imgur.com/0C1CQ84.png);
+	background-repeat: repeat-x;
+}
+
+
