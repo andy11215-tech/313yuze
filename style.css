@@ -1,19 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kalam:wght@300;400;700&display=swap');
+
+
 h1{
 	color: #32a2e4;
 	text-align: center ;
 	font-size: 250%;
-    border: #0f46df 1px dotted;
-    border-bottom: #0f46df 10px solid;
+    border: #5677bd 1px dotted;
+    border-bottom: #5677bd 10px solid;
 }
 
-ul{
-	color: #32a2e4;
-    font-size: 15px;
-	border: #5d8aeb 1px dotted;
-	border-left: #5677bd 10px solid;
-	padding: 5px 20px;
-	margin-bottom: 0;
-}
 
   p {
     color: #32a2e4; /* 較深的灰色文字 */
@@ -36,7 +32,7 @@ ul{
 	background-color: #fff;
 }
 
-#wwrap{
+#wrap1, #wrap2, #wrap3{
 	a:link,a:visited{
 	color:#FFFFFF;
 	background-color:#98bf21;
@@ -58,3 +54,39 @@ body{
 }
 
 
+#top
+{
+	font-family: "Alfa Slab One", serif;
+	color: #32a2e4;
+    font-size: 40px;
+	position:fixed;
+	bottom:5px;
+	right:900px;
+}
+
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid #5677bd;
+  border-bottom: 5px solid #5677bd;
+  padding: 12px 0px 10px;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Kalam", cursive;
+  color: #ffffff;
+  padding: 5px 20px;
+  margin-bottom: 0;
+  background-color:#8ba7f5;
+  text-align:center;
+  text-decoration:none;
+  border-radius: 20px ;
+}
+header nav ul li a:hover {
+  text-decoration: underline double;
+}
