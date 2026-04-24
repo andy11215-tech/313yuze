@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="guess.js" defer></script>
-
+    <title>猜數字遊戲</title>
+    <link rel="stylesheet" href="style.css"> <script src="guess.js" defer></script>
 </head>
 <body>
-     <div>
-    <h1>猜數字遊戲</h1>
-    <label for="guessField">猜一個數字 (1 到 100):</label>
-    <input type="number" class="guessField" id="guessField" min="1" max="100">
-    <button class="guessSubmit">提交</button>
-    <div class="result"></div>
-    <div class="count"></div>
-  </div>
+
+<div id="wrap">
+    <main class="game-container">
+        <h1>猜數字遊戲</h1>
+        
+        <div class="game-content">
+            <label for="guessField">猜一個數字 (1 到 100):</label>
+            <div class="input-group">
+                <input type="number" class="guessField" id="guessField" min="1" max="100" placeholder="0">
+                <button class="guessSubmit">提交猜測</button>
+            </div>
+
+            <div class="result-area">
+                <p class="guesses"></p>
+                <div class="result"></div>
+                <div class="count"></div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div class="button-group">
+    <button class="restartBtn">重新開始遊戲</button>
+    <a href="index.HTML" class="backToMenu">返回主選單</a>
+</div>
+
+<a href="#" id="top">↑</a>
+
 </body>
 </html>
